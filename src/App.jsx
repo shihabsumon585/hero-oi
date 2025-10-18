@@ -1,14 +1,17 @@
 
 import './App.css'
+import Banner from './Pages/Banner'
+import CustomerReview from './Pages/CustomerReview'
+import HomeApps from './Pages/HomeApps'
 
 function App() {
 
 
   return (
     <>
-      
-      <h1>HERO OI</h1>
-      
+      <Banner></Banner>
+      <CustomerReview></CustomerReview>
+      <HomeApps></HomeApps>
     </>
   )
 }

@@ -3,7 +3,8 @@ import React from 'react';
 const HomeApps = () => {
     return (
         <div>
-            This home section in this website
+            <h1>Trending Apps</h1>
+            <p>Explore All Trending Apps on the Market developed by us</p>
         </div>
     );
 };
