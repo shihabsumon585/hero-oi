@@ -15,9 +15,10 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
-                        <Link to={"/"}><a>Home</a></Link>
-                        <Link to={"/allApps"}><a>Apps</a></Link>
-                        <Link to={""}><a>Installation</a></Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/allApps">Apps</Link>
+                        <Link to="/installation">Installation</Link>
+
                     </ul>
                 </div>
                 <div className='flex justify-center items-center gap-3'>
@@ -28,9 +29,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold space-x-4">
-                    <Link className='' to={"/"}><a>Home</a></Link>
-                    <Link className='' to={"/allApps"}><a>Apps</a></Link>
-                    <Link className='' to={"/installedApps"}><a>Installation</a></Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/allApps">Apps</Link>
+                    <Link to="/installation">Installation</Link>
                 </ul>
             </div>
             <div className="navbar-end">

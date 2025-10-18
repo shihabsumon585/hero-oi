@@ -12,6 +12,7 @@ const router = createBrowserRouter([
     children: [
         {
             index: true,
+            loader: () => fetch("/homeAppsData.json"),
             Component: App,
             errorElement: ""
         },
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
             Component: AllApps
         },
         {
-            path: "/installedApps",
+            path: "/installation",
             Component: InstalledApps
         }
     ]
