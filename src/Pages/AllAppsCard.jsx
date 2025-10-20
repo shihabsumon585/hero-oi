@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router';
 
-const HomeAppsCard = ({ app }) => {
+const AllAppsCard = ({app}) => {
     return (
-        <Link to={"/appDetails"} className='shadow bg-white mt-3'>
+        <div className='shadow bg-white'>
             <div className='space-y-3 p-4'>
                 <img src={app.image} className='w-full h-[260px] rounded-2xl' alt="" />
                 <h1 className='text-2xl font-semibold'>{app.title}</h1>
@@ -12,8 +11,8 @@ const HomeAppsCard = ({ app }) => {
                     <p className='px-2 py-1 bg-[#FFF0E1] text-[#FF8811]'>{app.ratingAvg}</p>
                 </div>
             </div>
-        </Link>
+        </div>
     );
 };
 
-export default HomeAppsCard;
+export default AllAppsCard;
