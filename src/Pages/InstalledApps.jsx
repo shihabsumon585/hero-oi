@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import InstalledAppCard from './InstalledAppCard';
-import useProducts from '../hooks/useProducts';
+
 
 const InstalledApps = () => {
 
-    const { appData } = useProducts();
-    const apps = appData.slice(0, 4);
+    const [apps, setApps] = useState([]);
+
+    useEffect(() => {
+        const getLocalData = JSON.parse(localStorage.getItem("wishList"));
+        if(getLocalData) setApps(getLocalData);
+    }, [])
 
     return (
         <div className='bg-[#eceaea] py-6 space-y-4'>
@@ -14,8 +18,8 @@ const InstalledApps = () => {
 
             <div className='flex justify-between px-4'>
                 <h1 className='text-2xl font-bold'>({ apps.length }) Apps Found</h1>
-                {/* search feature add */}
-                <input type="search" name="" id="" />
+                {/* sort feature add */}
+                <button className='btn '>Sort</button>
             </div>
 
             <div className='p-4 space-y-4'>
