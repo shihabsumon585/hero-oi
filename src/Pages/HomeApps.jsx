@@ -1,10 +1,13 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router';
-import HomeAppsCard from './HomeAppsCard';
+import { Link } from 'react-router';
+import useProducts from '../hooks/useProducts';
+import AppsCard from './AppsCard/AppsCard';
 
 const HomeApps = () => {
-    const appData = useLoaderData();
-    // console.log(appData);
+    
+    const { appData } = useProducts();
+    const homeAppData = appData.slice(0, 8);
+    
     return (
         <div className='pt-10 bg-[#eceaea]'>
             <h1 className='text-center text-5xl font-bold '>Trending Apps</h1>
@@ -14,7 +17,7 @@ const HomeApps = () => {
 
             <div className='card grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-3'>
                 {
-                    appData.map(app => <HomeAppsCard key={app.id} app={app}></HomeAppsCard>)
+                    homeAppData.map(app => <AppsCard key={app.id} app={app}></AppsCard>)
                 }
             </div>
 

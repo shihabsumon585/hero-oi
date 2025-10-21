@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const HomeAppsCard = ({ app }) => {
+const AppsCard = ({app}) => {
     return (
-        <Link to={"/appDetails"} className='shadow bg-white mt-3'>
+        <Link to={`/appDetails/${app.id}`} className='shadow bg-white mt-3 hover:scale-105 transition ease-in-out '>
             <div className='space-y-3 p-4'>
                 <img src={app.image} className='w-full h-[260px] rounded-2xl' alt="" />
                 <h1 className='text-2xl font-semibold'>{app.title}</h1>
@@ -16,4 +16,4 @@ const HomeAppsCard = ({ app }) => {
     );
 };
 
-export default HomeAppsCard;
+export default AppsCard;

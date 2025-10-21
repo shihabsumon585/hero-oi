@@ -1,10 +1,11 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
 import InstalledAppCard from './InstalledAppCard';
+import useProducts from '../hooks/useProducts';
 
 const InstalledApps = () => {
 
-    const apps = useLoaderData();
+    const { appData } = useProducts();
+    const apps = appData.slice(0, 4);
 
     return (
         <div className='bg-[#eceaea] py-6 space-y-4'>
@@ -12,7 +13,7 @@ const InstalledApps = () => {
             <p className='text-center text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
 
             <div className='flex justify-between px-4'>
-                <h1 className='text-2xl font-bold'>({ }) Apps Found</h1>
+                <h1 className='text-2xl font-bold'>({ apps.length }) Apps Found</h1>
                 {/* search feature add */}
                 <input type="search" name="" id="" />
             </div>
@@ -21,8 +22,9 @@ const InstalledApps = () => {
                 {
                     apps.map(app => <InstalledAppCard key={app.id} app={app}></InstalledAppCard>)
                 }
-            </div>
 
+
+            </div>
         </div>
     );
 };

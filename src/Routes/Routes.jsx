@@ -4,32 +4,29 @@ import MainLayOut from "../LayOuts/MainLayOut"
 import AllApps from "../Pages/AllApps"
 import InstalledApps from "../Pages/InstalledApps"
 import AppDetails from "../Pages/AppDetails"
+import ErrorPage from "../Pages/ErrorPage"
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayOut,
+    errorElement: <ErrorPage />,
     children: [
         {
             index: true,
-            loader: () => fetch("/homeAppsData.json"),
             Component: App,
-            errorElement: ""
         },
         {
             path: "/allApps",
-            loader: () => fetch("/allAppsData.json"),
             Component: AllApps
         },
         {
             path: "/installation",
-            loader: () => fetch("/allAppsData.json"),
             Component: InstalledApps
         },
         {
-          path: "/appDetails",
-          
+          path: "/appDetails/:id",
           Component: AppDetails
         }
     ]

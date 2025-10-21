@@ -3,7 +3,7 @@ import React from 'react';
 const InstalledAppCard = () => {
     return (
         <div className='bg-white p-2 rounded-lg'>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <div className='flex'>
                     <img src="" alt="" />
                     <div className=''>
