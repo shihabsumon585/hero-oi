@@ -1,9 +1,15 @@
 import React from 'react';
+import errorImg from "../assets/error-404.png"
+import { Link } from 'react-router';
+
 
 const ErrorPage = () => {
     return (
-        <div className='flex justify-center min-h-screen'>
-            <h1 className='text-6xl text-center font-semibold flex justify-center items-center'>404 ERROR...</h1>
+        <div className='flex flex-col justify-center min-h-screen  items-center'>
+            <img src={errorImg} alt="" />
+            <Link to="/" className="btn bg-[#632EE3] text-white mt-4">
+                Go Back Home
+            </Link>
         </div>
     );
 };

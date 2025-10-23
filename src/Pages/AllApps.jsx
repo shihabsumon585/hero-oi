@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
 import useProducts from '../hooks/useProducts';
 import AppsCard from './AppsCard/AppsCard';
+import loadingImg from "../assets/logo.png"
 
 const AllApps = () => {
 
-    const { appData } = useProducts();
-
-    const [ search, setSearch ] = useState("");
+    const { appData, loading } = useProducts();
+    
+    const [search, setSearch] = useState("");
     const term = search.trim().toLocaleLowerCase();
     
     const searchedProducts = term ? appData.filter(p => p.title.toLocaleLowerCase().includes(term)) : appData;
-
-
+    
+    
+    if (loading) return (
+        <div className='flex justify-center items-center mt-10 gap-2'>
+            <span className='text-6xl font-bold'>L</span> <img src={loadingImg} className='w-[50px]' alt="" /> <span className='text-6xl font-bold'>OADING</span>
+        </div>
+    );
 
     return (
         <div className='my-6 space-y-6'>
@@ -35,9 +41,9 @@ const AllApps = () => {
                         </g>
                     </svg>
                     <input type="search"
-                    placeholder="Search Apps" 
-                    onChange={(e) => setSearch(e.target.value)}
-                    value={search}
+                        placeholder="Search Apps"
+                        onChange={(e) => setSearch(e.target.value)}
+                        value={search}
                     />
                 </label>
             </div>

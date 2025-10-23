@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
                 <Link to={"/"} className='flex justify-center items-center gap-3'>
                     <img className='w-[40px]' src={imgLogo} alt="" />
-                    <h1 className='font-bold text-3xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'>HERO.OI</h1>
+                    <h1 className='font-bold text-3xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'>HERO.IO</h1>
 
                 </Link>
             </div>

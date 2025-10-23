@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import InstalledAppCard from './InstalledAppCard';
+import { toast } from 'react-toastify';
+import loadingImg from "../assets/logo.png"
 
 
 const InstalledApps = () => {
+
+
 
     const [apps, setApps] = useState([]);
 
@@ -32,8 +36,9 @@ const InstalledApps = () => {
         // for ui instant update
         setApps(updatedList);
         localStorage.setItem("wishList", JSON.stringify(updatedList))
-        console.log("btn clicked");
+        toast("Uninstall Successfully Complete");
     }
+
 
     return (
         <div className='bg-[#eceaea] py-6 space-y-4 '>
@@ -49,7 +54,7 @@ const InstalledApps = () => {
                         value={sortOrder}
                         onChange={(e) => setSortOrder(e.target.value)}
                     >
-                        <option value="none">Sort by size</option>
+                        <option value="none">Sort by downloads</option>
                         <option value="size-asc">High-Low</option>
                         <option value="size-desc">Low-High</option>
                     </select>
