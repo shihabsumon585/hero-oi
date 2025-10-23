@@ -1,542 +1,290 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/200/200?1",
-    "title": "ChatEase",
-    "companyName": "TechNova Ltd",
-    "description": "Smart AI chatbot assistant for your daily needs.",
-    "size": 45,
-    "reviews": "1.2M",
-    "ratingAvg": 4.6,
-    "downloads": "10M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Instagram is a global photo and video-sharing platform that allows users to capture, edit, and share moments from their daily lives. With features like Stories, Reels, and IGTV, users can express creativity through short videos and stunning visuals. Businesses and creators use Instagram to connect with audiences, build brands, and promote content. The platform emphasizes engagement through likes, comments, and messaging, fostering a vibrant community where users can discover trends, influencers, and inspiration across the world.",
+    "size": 85,
+    "reviews": "4.3M",
+    "ratingAvg": 4.5,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 12000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 50000 },
-      { "name": "5 star", "count": 150000 }
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 890000 }
     ]
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/200/200?2",
-    "title": "PhotoGlow",
-    "companyName": "PixelPerfect Inc",
-    "description": "Professional photo editing made simple and fun.",
-    "size": 98,
-    "reviews": "500K",
-    "ratingAvg": 4.8,
-    "downloads": "5M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "WhatsApp is a secure messaging app that allows users to communicate through text, voice, and video calls worldwide. It supports multimedia sharing including photos, videos, documents, and voice notes. End-to-end encryption ensures conversations remain private and secure. WhatsApp also offers group chats, status updates, and business profiles for organizations to connect with customers effectively. With billions of active users, it remains one of the most reliable and convenient communication platforms globally.",
+    "size": 60,
+    "reviews": "3.8M",
+    "ratingAvg": 4.7,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 6000 },
-      { "name": "3 star", "count": 10000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 120000 }
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 950000 }
     ]
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/200/200?3",
-    "title": "FitTrack Pro",
-    "companyName": "HealthMetrics Co",
-    "description": "Track your fitness, meals, and sleep with precision.",
-    "size": 62,
-    "reviews": "2.5M",
-    "ratingAvg": 4.3,
-    "downloads": "50M",
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 45000 },
-      { "name": "3 star", "count": 80000 },
-      { "name": "4 star", "count": 150000 },
-      { "name": "5 star", "count": 350000 }
-    ]
-  },
-  {
-    "id": 4,
-    "image": "https://picsum.photos/200/200?4",
-    "title": "BudgetWise",
-    "companyName": "MoneyFlow Apps",
-    "description": "Manage your personal finances and track expenses effortlessly.",
-    "size": 32,
-    "reviews": "800K",
-    "ratingAvg": 4.7,
-    "downloads": "8M",
-    "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 7000 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 60000 },
-      { "name": "5 star", "count": 200000 }
-    ]
-  },
-  {
-    "id": 5,
-    "image": "https://picsum.photos/200/200?5",
-    "title": "CodeLearn",
-    "companyName": "DevSkills Academy",
-    "description": "Learn to code with interactive lessons and challenges.",
-    "size": 120,
-    "reviews": "300K",
-    "ratingAvg": 4.5,
-    "downloads": "2M",
-    "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 5000 },
-      { "name": "3 star", "count": 20000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 80000 }
-    ]
-  },
-  {
-    "id": 6,
-    "image": "https://picsum.photos/200/200?6",
-    "title": "TravelMate",
-    "companyName": "GlobalGuides Inc",
-    "description": "Your essential travel planner and local guide.",
-    "size": 75,
-    "reviews": "900K",
-    "ratingAvg": 4.2,
-    "downloads": "9M",
-    "ratings": [
-      { "name": "1 star", "count": 25000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 50000 },
-      { "name": "4 star", "count": 80000 },
-      { "name": "5 star", "count": 150000 }
-    ]
-  },
-  {
-    "id": 7,
-    "image": "https://picsum.photos/200/200?7",
-    "title": "Mindful Zen",
-    "companyName": "CalmFlow Tech",
-    "description": "Guided meditations and relaxing sleep stories.",
-    "size": 150,
-    "reviews": "1.8M",
-    "ratingAvg": 4.9,
-    "downloads": "20M",
-    "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 100000 },
-      { "name": "5 star", "count": 400000 }
-    ]
-  },
-  {
-    "id": 8,
-    "image": "https://picsum.photos/200/200?8",
-    "title": "GameSphere",
-    "companyName": "HyperPlay Studios",
-    "description": "A vast library of casual and challenging mobile games.",
-    "size": 25,
-    "reviews": "10M",
-    "ratingAvg": 3.9,
-    "downloads": "100M",
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 2000000 }
-    ]
-  },
-  {
-    "id": 9,
-    "image": "https://picsum.photos/200/200?9",
-    "title": "HomeHub Connect",
-    "companyName": "SmartLiving Systems",
-    "description": "Control all your smart home devices from one app.",
-    "size": 55,
-    "reviews": "150K",
-    "ratingAvg": 4.1,
-    "downloads": "1M",
-    "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 30000 },
-      { "name": "5 star", "count": 40000 }
-    ]
-  },
-  {
-    "id": 10,
-    "image": "https://picsum.photos/200/200?10",
-    "title": "RecipeGenius",
-    "companyName": "Culinary Apps",
-    "description": "Discover, save, and cook amazing recipes easily.",
-    "size": 88,
-    "reviews": "400K",
-    "ratingAvg": 4.6,
-    "downloads": "4M",
-    "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 10000 },
-      { "name": "4 star", "count": 35000 },
-      { "name": "5 star", "count": 100000 }
-    ]
-  },
-  {
-    "id": 11,
-    "image": "https://picsum.photos/200/200?11",
-    "title": "StudyPal",
-    "companyName": "Academic Tools LLC",
-    "description": "Flashcards, quizzes, and study schedules for students.",
-    "size": 40,
-    "reviews": "600K",
-    "ratingAvg": 4.4,
-    "downloads": "6M",
-    "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 70000 },
-      { "name": "5 star", "count": 120000 }
-    ]
-  },
-  {
-    "id": 12,
-    "image": "https://picsum.photos/200/200?12",
-    "title": "VideoCut",
-    "companyName": "MotionGraphics Co",
-    "description": "Easy-to-use video editing and creation tool.",
-    "size": 180,
-    "reviews": "700K",
-    "ratingAvg": 4.7,
-    "downloads": "7M",
-    "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 5000 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 50000 },
-      { "name": "5 star", "count": 180000 }
-    ]
-  },
-  {
-    "id": 13,
-    "image": "https://picsum.photos/200/200?13",
-    "title": "TaskFlow",
-    "companyName": "Productivity Hub",
-    "description": "The ultimate to-do list and task management application.",
-    "size": 28,
-    "reviews": "1.5M",
-    "ratingAvg": 4.5,
-    "downloads": "15M",
-    "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 40000 },
-      { "name": "4 star", "count": 100000 },
-      { "name": "5 star", "count": 300000 }
-    ]
-  },
-  {
-    "id": 14,
-    "image": "https://picsum.photos/200/200?14",
-    "title": "WorldNews Daily",
-    "companyName": "Global Media Group",
-    "description": "Breaking news and in-depth analysis from around the world.",
-    "size": 50,
-    "reviews": "2.1M",
-    "ratingAvg": 4.1,
-    "downloads": "25M",
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 55000 },
-      { "name": "3 star", "count": 120000 },
-      { "name": "4 star", "count": 200000 },
-      { "name": "5 star", "count": 400000 }
-    ]
-  },
-  {
-    "id": 15,
-    "image": "https://picsum.photos/200/200?15",
-    "title": "LanguageLink",
-    "companyName": "Polyglot Solutions",
-    "description": "Learn new languages with fun, interactive lessons.",
+    "image": "https://i.ibb.co.com/BHbGXtRn/Facebook-Logo-2019.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Facebook is a global social networking platform that connects people, communities, and businesses. It allows users to share updates, photos, videos, and events with friends and followers. With integrated groups, pages, and marketplace, Facebook enables individuals and organizations to engage and grow audiences. The platform also supports live streaming, reels, and advertisements, making it a versatile space for entertainment, connection, and digital marketing. Facebook continues to evolve as a central hub for online social interaction.",
     "size": 95,
-    "reviews": "3.5M",
-    "ratingAvg": 4.8,
-    "downloads": "30M",
-    "ratings": [
-      { "name": "1 star", "count": 15000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 200000 },
-      { "name": "5 star", "count": 700000 }
-    ]
-  },
-  {
-    "id": 16,
-    "image": "https://picsum.photos/200/200?16",
-    "title": "DriveRoute",
-    "companyName": "GeoMapping Labs",
-    "description": "Accurate navigation, real-time traffic, and route planning.",
-    "size": 70,
     "reviews": "5M",
     "ratingAvg": 4.2,
-    "downloads": "80M",
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 500000 },
-      { "name": "5 star", "count": 900000 }
-    ]
-  },
-  {
-    "id": 17,
-    "image": "https://picsum.photos/200/200?17",
-    "title": "MusicWave",
-    "companyName": "Acoustic Stream Co",
-    "description": "Stream millions of songs and create custom playlists.",
-    "size": 60,
-    "reviews": "8M",
-    "ratingAvg": 4.3,
-    "downloads": "150M",
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 180000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 1500000 }
-    ]
-  },
-  {
-    "id": 18,
-    "image": "https://picsum.photos/200/200?18",
-    "title": "EBook Haven",
-    "companyName": "Digital Library Inc",
-    "description": "Read thousands of books and audiobooks on your device.",
-    "size": 35,
-    "reviews": "400K",
-    "ratingAvg": 4.7,
-    "downloads": "3M",
-    "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 2000 },
-      { "name": "3 star", "count": 8000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 120000 }
-    ]
-  },
-  {
-    "id": 19,
-    "image": "https://picsum.photos/200/200?19",
-    "title": "WeatherNow",
-    "companyName": "Atmosphere Data Corp",
-    "description": "Hyper-local forecasts, radar, and severe weather alerts.",
-    "size": 48,
-    "reviews": "1.1M",
-    "ratingAvg": 4.5,
-    "downloads": "12M",
-    "ratings": [
-      { "name": "1 star", "count": 15000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 35000 },
-      { "name": "4 star", "count": 80000 },
-      { "name": "5 star", "count": 200000 }
-    ]
-  },
-  {
-    "id": 20,
-    "image": "https://picsum.photos/200/200?20",
-    "title": "MarketWatch",
-    "companyName": "FinTech Innovations",
-    "description": "Track stocks, cryptocurrency, and market trends.",
-    "size": 58,
-    "reviews": "900K",
-    "ratingAvg": 4.6,
-    "downloads": "9M",
-    "ratings": [
-      { "name": "1 star", "count": 9000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 70000 },
-      { "name": "5 star", "count": 180000 }
-    ]
-  },
-  {
-    "id": 21,
-    "image": "https://picsum.photos/200/200?21",
-    "title": "QuickScan OCR",
-    "companyName": "Digitalize Soft",
-    "description": "Scan documents to PDF/Text and use OCR technology.",
-    "size": 40,
-    "reviews": "200K",
-    "ratingAvg": 4.4,
-    "downloads": "2M",
-    "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 4000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 30000 },
-      { "name": "5 star", "count": 60000 }
-    ]
-  },
-  {
-    "id": 22,
-    "image": "https://picsum.photos/200/200?22",
-    "title": "PetCare Log",
-    "companyName": "Animal Health Solutions",
-    "description": "Track vet appointments, medication, and pet habits.",
-    "size": 30,
-    "reviews": "50K",
-    "ratingAvg": 4.9,
-    "downloads": "500K",
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 500 },
-      { "name": "4 star", "count": 5000 },
-      { "name": "5 star", "count": 20000 }
-    ]
-  },
-  {
-    "id": 23,
-    "image": "https://picsum.photos/200/200?23",
-    "title": "AutoTune Guitar",
-    "companyName": "String Theory Apps",
-    "description": "Precise digital tuner and metronome for musicians.",
-    "size": 22,
-    "reviews": "1.3M",
-    "ratingAvg": 4.8,
-    "downloads": "14M",
-    "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 5000 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 80000 },
-      { "name": "5 star", "count": 300000 }
-    ]
-  },
-  {
-    "id": 24,
-    "image": "https://picsum.photos/200/200?24",
-    "title": "Virtual Paint",
-    "companyName": "Artistic Canvas Co",
-    "description": "Digital painting and drawing with a wide range of tools.",
-    "size": 110,
-    "reviews": "600K",
-    "ratingAvg": 4.2,
-    "downloads": "6M",
-    "ratings": [
-      { "name": "1 star", "count": 18000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 40000 },
-      { "name": "4 star", "count": 60000 },
-      { "name": "5 star", "count": 120000 }
-    ]
-  },
-  {
-    "id": 25,
-    "image": "https://picsum.photos/200/200?25",
-    "title": "CloudStorage Plus",
-    "companyName": "DataSafe Security",
-    "description": "Securely backup and access your files from anywhere.",
-    "size": 52,
-    "reviews": "2.8M",
-    "ratingAvg": 4.0,
-    "downloads": "40M",
-    "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 150000 },
-      { "name": "4 star", "count": 250000 },
-      { "name": "5 star", "count": 500000 }
-    ]
-  },
-  {
-    "id": 26,
-    "image": "https://picsum.photos/200/200?26",
-    "title": "JobFinder",
-    "companyName": "Career Ascent Ltd",
-    "description": "Find your next career opportunity with advanced filters.",
-    "size": 38,
-    "reviews": "500K",
-    "ratingAvg": 4.4,
-    "downloads": "5M",
-    "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 50000 },
-      { "name": "5 star", "count": 100000 }
-    ]
-  },
-  {
-    "id": 27,
-    "image": "https://picsum.photos/200/200?27",
-    "title": "CryptoTracker",
-    "companyName": "BlockChain Metrics",
-    "description": "Monitor all major cryptocurrencies and portfolio value.",
-    "size": 65,
-    "reviews": "1.9M",
-    "ratingAvg": 4.7,
-    "downloads": "20M",
-    "ratings": [
-      { "name": "1 star", "count": 15000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 150000 },
-      { "name": "5 star", "count": 400000 }
-    ]
-  },
-  {
-    "id": 28,
-    "image": "https://picsum.photos/200/200?28",
-    "title": "SocialEcho",
-    "companyName": "ConnectAll Group",
-    "description": "A new way to share your moments and connect with friends.",
-    "size": 85,
-    "reviews": "7.5M",
-    "ratingAvg": 3.5,
-    "downloads": "90M",
-    "ratings": [
-      { "name": "1 star", "count": 800000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 900000 },
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
       { "name": "5 star", "count": 1200000 }
     ]
   },
   {
-    "id": 29,
-    "image": "https://picsum.photos/200/200?29",
-    "title": "3D Planner",
-    "companyName": "Architectural Visuals",
-    "description": "Design and visualize rooms and floor plans in 3D.",
-    "size": 150,
-    "reviews": "100K",
-    "ratingAvg": 4.3,
-    "downloads": "800K",
+    "id": 4,
+    "image": "https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "TikTok is a short-form video platform where users create and share creative, entertaining, and educational videos. It empowers creators with powerful editing tools, effects, and trending soundtracks. The app’s algorithm curates personalized content feeds, keeping users engaged with videos that match their interests. TikTok has become a global cultural phenomenon, inspiring trends, challenges, and viral moments that shape modern internet culture. It is especially popular among younger audiences and digital creators worldwide.",
+    "size": 120,
+    "reviews": "6M",
+    "ratingAvg": 4.4,
+    "downloads": "3B+",
     "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 4000 },
-      { "name": "3 star", "count": 10000 },
-      { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 30000 }
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 420000 },
+      { "name": "5 star", "count": 1600000 }
     ]
   },
   {
-    "id": 30,
-    "image": "https://picsum.photos/200/200?30",
-    "title": "KidMath Fun",
-    "companyName": "EduPlay Games",
-    "description": "Engaging math games for kids aged 5-10.",
-    "size": 72,
-    "reviews": "950K",
-    "ratingAvg": 4.9,
-    "downloads": "10M",
+    "id": 5,
+    "image": "https://i.ibb.co.com/6RnPfBcB/You-Tube-LOGO.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video-sharing platform, enabling users to upload, view, and interact with videos across every imaginable category. From music and tutorials to entertainment and news, YouTube empowers creators to reach global audiences and monetize their content. With personalized recommendations, live streaming, and YouTube Shorts, it provides a dynamic experience for users and creators alike. It has become a cornerstone of online entertainment, education, and expression in the digital era.",
+    "size": 110,
+    "reviews": "8M",
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
     "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 8000 },
-      { "name": "4 star", "count": 70000 },
-      { "name": "5 star", "count": 300000 }
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a cloud-based messaging app known for its speed, security, and privacy. It offers group chats, channels, and bots, allowing users to communicate efficiently at scale. Telegram supports file sharing, voice calls, video messages, and secret chats with end-to-end encryption. Its lightweight design and cross-platform accessibility make it popular among users who value privacy and reliability. Telegram also empowers communities and organizations to broadcast messages to millions seamlessly.",
+    "size": 75,
+    "reviews": "2.5M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/dwFxvBhs/OIP.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a multimedia messaging app that allows users to send photos and videos that disappear after viewing. With creative filters, lenses, and bitmoji avatars, Snapchat emphasizes fun and spontaneity. The app also offers stories, spotlight videos, and Snap Map for real-time location sharing. It remains a favorite among younger users for its engaging features and privacy-focused design, promoting authentic and in-the-moment communication between friends.",
+    "size": 70,
+    "reviews": "2.9M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 620000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/WvMHP8KD/t-500x300.jpg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "description": "X, formerly known as Twitter, is a real-time social networking platform where users share short posts called tweets. It is widely used for news, discussions, and live event updates. X connects individuals, businesses, and influencers, fostering conversations around trending topics worldwide. With features like Spaces, Communities, and premium subscriptions, X continues to evolve into a comprehensive platform for media, communication, and content creation.",
+    "size": 80,
+    "reviews": "3.4M",
+    "ratingAvg": 4.1,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 720000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is a leading music streaming platform that provides access to millions of songs, podcasts, and playlists from around the world. Users can create personalized playlists, follow artists, and explore new music tailored to their taste. Spotify offers both free and premium plans with offline listening and ad-free experiences. It supports smart recommendations powered by advanced AI and has revolutionized the way people enjoy and discover music globally.",
+    "size": 85,
+    "reviews": "3.2M",
+    "ratingAvg": 4.7,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a subscription-based streaming platform offering a vast library of movies, TV shows, documentaries, and original productions. It delivers high-quality entertainment across genres, allowing users to watch on-demand content anytime and anywhere. Netflix’s recommendation system curates personalized viewing experiences, making it the go-to destination for binge-watchers. With offline downloads, multiple profiles, and global accessibility, Netflix redefined the future of digital entertainment.",
+    "size": 90,
+    "reviews": "4M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Messenger is Meta’s official instant messaging platform that enables users to chat, share media, and make voice or video calls. Integrated with Facebook, it also supports standalone use and cross-platform conversations. Messenger offers group chats, reactions, and real-time communication tools, making it perfect for staying connected with friends and family. With added encryption and multi-device sync, it’s both secure and user-friendly.",
+    "size": 65,
+    "reviews": "2.7M",
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 820000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "description": "LinkedIn is a professional networking platform designed for career growth, job opportunities, and business connections. Users can showcase resumes, skills, and experiences while engaging with industry professionals. It provides a space for employers to recruit talent and for individuals to build professional visibility. With LinkedIn Learning, the app also promotes continuous education and skill development for modern careers.",
+    "size": 70,
+    "reviews": "2.1M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual discovery platform where users find and save creative ideas, inspirations, and projects. From home decor and fashion to recipes and travel, it helps people plan and organize their passions. With Pins, Boards, and shopping integrations, Pinterest connects creativity with practicality. It’s a go-to platform for inspiration seekers and brands looking to engage visually with global audiences.",
+    "size": 55,
+    "reviews": "1.9M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 720000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/v6V2J4BZ/reddit-logo-reddit-icon-transparent-free-png.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "Reddit is a community-driven discussion platform that hosts millions of user-created forums called subreddits. It’s a space for people to share news, memes, stories, and opinions on virtually any topic. Reddit fosters open discussion, voting-based ranking, and real-time engagement. Whether it’s entertainment, technology, or personal advice, Reddit provides a diverse space for users to learn, laugh, and connect with like-minded people.",
+    "size": 80,
+    "reviews": "2.3M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/Q3J97xcL/OIP.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "description": "Zoom is a leading video conferencing platform that enables users to host online meetings, webinars, and virtual events. It supports HD video, screen sharing, and cloud recording with a simple, user-friendly interface. Widely used for education, business, and remote collaboration, Zoom connects millions globally. Its breakout rooms, chat features, and reliability make it an essential tool for modern communication.",
+    "size": 95,
+    "reviews": "3.1M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/fYK1mth4/OIP.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a communication platform designed for communities, gamers, and teams to interact via text, voice, and video channels. It offers servers, private messaging, and integrations with other apps and services. Users can join communities, share media, host events, and stream content directly. Discord’s focus on real-time communication, customizable channels, and privacy features has made it a popular hub for online collaboration and entertainment, connecting millions globally.",
+    "size": 75,
+    "reviews": "2.2M",
+    "ratingAvg": 4.6,
+    "downloads": "300M+",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 650000 }
     ]
   }
 ]

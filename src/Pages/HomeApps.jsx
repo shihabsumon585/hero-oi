@@ -23,7 +23,7 @@ const HomeApps = () => {
 
 
 
-            <div className='flex justify-center my-6'>
+            <div className='flex justify-center py-6'>
                 <Link to={"/allApps"} className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white '>Show All</Link>
             </div>
         </div>

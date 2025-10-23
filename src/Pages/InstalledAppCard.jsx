@@ -3,8 +3,10 @@ import { AiFillStar } from 'react-icons/ai';
 import { BsDownload } from 'react-icons/bs';
 
 
-const InstalledAppCard = ({ app }) => {
-    const { image, title, size, ratingAvg, downloads } = app;
+const InstalledAppCard = ({ app, handleRemove }) => {
+    const { image, title, size, ratingAvg, downloads, id } = app;
+
+
     return (
         <div className='bg-white p-2 rounded-lg'>
             <div className='flex justify-between items-center'>
@@ -26,7 +28,10 @@ const InstalledAppCard = ({ app }) => {
                     </div>
                 </div>
                 <div className='flex'>
-                    <button className='btn btn-primary !px-4'>Uninstall</button>
+                    <button
+                        className='btn btn-primary !px-4'
+                        onClick={() => handleRemove(id)}
+                    >Uninstall</button>
                 </div>
             </div>
         </div>
@@ -34,10 +39,3 @@ const InstalledAppCard = ({ app }) => {
 };
 
 export default InstalledAppCard;
-
-// BsDownload className='text-green-600 text-4xl' />
-//                                     <p className='text-gray-500'>Downloads</p>
-//                                     <h2 className='text-4xl font-bold'>{singleAppData.downloads}</h2>
-//                                 </div>
-//                                 <div className='mt-2 space-y-1'>
-//                                     

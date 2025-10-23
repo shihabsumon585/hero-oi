@@ -1,10 +1,14 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import imgLogo from "../assets/logo.png"
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 
 const Navbar = () => {
+
+    const activeClass = "text-[#632EE3] font-bold border-b-2";
+    const defaultClass = "font-semibold text-gray-700";
+
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -15,23 +19,52 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
-                        <Link to="/">Home</Link>
-                        <Link to="/allApps">Apps</Link>
-                        <Link to="/installation">Installation</Link>
-
+                        <li>
+                            <NavLink
+                                to="/"
+                                className={({ isActive }) => isActive ? activeClass : defaultClass}
+                            >Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="/allApps"
+                                className={({ isActive }) => isActive ? activeClass : defaultClass}
+                            >Apps</NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="/installation"
+                                className={({ isActive }) => isActive ? activeClass : defaultClass}
+                            >Installation</NavLink>
+                        </li>
                     </ul>
                 </div>
-                <div className='flex justify-center items-center gap-3'>
+                <Link to={"/"} className='flex justify-center items-center gap-3'>
                     <img className='w-[40px]' src={imgLogo} alt="" />
-                    <Link to={"/"} className='font-bold text-3xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'>HERO.OI</Link>
+                    <h1 className='font-bold text-3xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'>HERO.OI</h1>
 
-                </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold space-x-4">
-                    <Link to="/">Home</Link>
-                    <Link to="/allApps">Apps</Link>
-                    <Link to="/installation">Installation</Link>
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => isActive ? activeClass : defaultClass}
+                        >Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/allApps"
+                            className={({ isActive }) => isActive ? activeClass : defaultClass}
+                        >Apps</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/installation"
+                            className={({ isActive }) => isActive ? activeClass : defaultClass}
+                        >Installation</NavLink>
+                    </li>
                 </ul>
             </div>
             <div className="navbar-end">
