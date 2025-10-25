@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import InstalledAppCard from './InstalledAppCard';
 import { toast } from 'react-toastify';
-import loadingImg from "../assets/logo.png"
+
 
 
 const InstalledApps = () => {

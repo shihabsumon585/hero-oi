@@ -40,7 +40,7 @@ const AppDetails = () => {
     if (!singleAppData) {
         return <div className='flex flex-col'>
             <img src={appNotFountImg} className='mx-auto my-10' alt="" />
-            <Link to={"http://localhost:5173/allApps"} className='btn btn-primary mx-auto mb-10'>Go Back</Link>
+            <Link to={"/allApps"} className='btn btn-primary mx-auto mb-10'>Go Back</Link>
         </div>
     }
 
@@ -110,7 +110,6 @@ const AppDetails = () => {
                 <div className='chart bg-white p-4 my-6 shadow border-b-1 border-gray-300 '>
                     <h4 className='text-2xl  font-semibold mb-2 text-center sm:text-left'>Ratings</h4>
 
-                    {/* bar charts */}
                     <BarChart
 
                         className='mx-auto'
@@ -122,7 +121,6 @@ const AppDetails = () => {
                         <Tooltip />
                         <Legend />
                         <Bar dataKey="count" fill="#8884d8" />
-                        {/* <Bar dataKey="uv" fill="#82ca9d" /> */}
                     </BarChart>
                 </div>
 
